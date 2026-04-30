@@ -26,11 +26,10 @@ const Events = () => {
         fetchEvents();
     }, []);
 
-    // Adjust number of cards per slide based on window width
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth < 768) setCardsPerSlide(1); // mobile
-            else setCardsPerSlide(2); // tablet and desktop
+            if (window.innerWidth < 768) setCardsPerSlide(1);
+            else setCardsPerSlide(2);
         };
         handleResize();
         window.addEventListener("resize", handleResize);

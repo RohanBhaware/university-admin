@@ -41,7 +41,7 @@ const Placement = () => {
   }, []);
 
   return (
-    <section id="placements" className="pt-20 pb-16 w-full h-150 bg-white]">
+    <section id="placements" className="pt-20 pb-16 w-full h-150 bg-[#E8EDF2]">
       <div className="px-6 md:px-16">
         {/* HEADER */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16">
@@ -54,7 +54,7 @@ const Placement = () => {
 
           <div
             data-aos="fade-left"
-            className="max-w-md text-[#547A95] mt-4 md:mt-0"
+            className="max-w-md text-[black] mt-4 md:mt-0"
           >
             Our students are placed in top companies with excellent packages and
             strong career growth.

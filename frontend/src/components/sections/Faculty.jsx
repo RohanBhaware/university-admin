@@ -3,7 +3,7 @@ import fac2 from '../../assets/images/fac2.webp';
 import fac3 from '../../assets/images/fac3.webp';
 import fac4 from '../../assets/images/fac4.webp';
 import fac5 from '../../assets/images/fac5.webp';
-import { FaAnglesDown } from "react-icons/fa6";
+// import { FaAnglesDown } from "react-icons/fa6";
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
@@ -24,7 +24,7 @@ const FacultyList = () => {
     }, []);
 
     return (
-        <section className="min-h-screen bg-[#E8EDF2] pt-24 pb-16 w-full" id="faculty">
+        <section className="min-h-screen bg-[#2C3947] pt-24 pb-16 w-full" id="faculty">
 
             {/* HEADER */}
             <div className="px-6 md:px-16 mb-12">
@@ -33,7 +33,7 @@ const FacultyList = () => {
 
                     {/* LEFT → TITLE */}
                     <div data-aos="fade-right">
-                        <h2 className="text-4xl md:text-5xl font-bold text-[#2C3947]">
+                        <h2 className="text-4xl md:text-5xl font-bold text-[#fff]">
                             Our <span className="text-[#C2A56D]">Faculty</span>
                         </h2>
                     </div>
@@ -55,7 +55,7 @@ const FacultyList = () => {
                         key={index}
                         data-aos="zoom-in"
                         data-aos-delay={index * 100}
-                        className="flex flex-col sm:flex-row items-center sm:items-start bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition"
+                        className="flex flex-col sm:flex-row items-center sm:items-start bg-[#E8EDF2] shadow-md rounded-lg p-6 hover:shadow-lg transition"
                     >
 
                         {/* Image */}
@@ -66,13 +66,13 @@ const FacultyList = () => {
                         />
 
                         {/* Content */}
-                        <div className="mt-4 sm:mt-0 sm:ml-6 text-center sm:text-left text-[#2C3947]">
+                        <div className="mt-4 sm:mt-0 sm:ml-6 text-center sm:text-left text-black">
 
                             <h2 className="text-lg md:text-xl font-bold">
                                 {person.title}
                             </h2>
 
-                            <p className="italic text-[#547A95] mt-2 text-sm sm:text-base">
+                            <p className="italic text-black mt-2 text-sm sm:text-base">
                                 Designation — {person.description || "Professor"}
                             </p>
 
@@ -95,12 +95,12 @@ const FacultyList = () => {
             </div>
 
             {/* SEE ALL */}
-            {/* <div
+            <div
                 data-aos="fade-up"
-                className="mt-12 flex justify-center text-[#2C3947] hover:text-[#C2A56D] font-semibold cursor-pointer gap-2"
+                className="mt-12 flex justify-center text-[#fff] hover:text-[#C2A56D] font-semibold cursor-pointer gap-2"
             >
-                See all <FaAnglesDown size={14} />
-            </div> */}
+                See all 
+            </div>
 
         </section>
     );

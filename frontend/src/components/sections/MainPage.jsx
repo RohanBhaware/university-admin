@@ -16,9 +16,9 @@ const MainPage = () => {
             <div>
                 <Navbar />
                 <ControlledCarousel/>
-                <Events/>
                 <Admission/>
                 <StudentLife/>
+                <Events/>
                 <Faculty/>
                 <Placement/>
                 {/* <About /> */}

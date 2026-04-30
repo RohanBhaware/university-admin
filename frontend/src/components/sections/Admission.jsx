@@ -21,7 +21,7 @@ const Admission = () => {
                             Admissions 2025–2026
                         </h2>
 
-                        <p className="text-[#547A95] text-sm md:text-base leading-relaxed">
+                        <p className="text-black text-sm md:text-base leading-relaxed">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget aliquam nisl nunc eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget aliquam nisl nunc eget nunc.
                         </p>
 

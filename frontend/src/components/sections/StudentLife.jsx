@@ -57,7 +57,7 @@ const StudentLife = () => {
     }, [slides]);
 
     return (
-        <section id="studentlife" className="pt-24 pb-16 bg-white w-full">
+        <section id="studentlife" className="pt-24 pb-16 bg-[#2C3947] w-full">
 
     {/* INNER CONTENT (for alignment only) */}
     <div className="px-6 md:px-16">
@@ -67,14 +67,14 @@ const StudentLife = () => {
 
             {/* Left */}
             <div data-aos="fade-right">
-                <h2 className="text-4xl md:text-5xl font-bold text-[#2C3947]">
+                <h2 className="text-4xl md:text-5xl font-bold text-[#fff]">
                     Student <span className="text-[#C2A56D]">Life</span>
                 </h2>
                 {/* <div className="w-[70px] h-[3px] bg-[#C2A56D] mt-2 rounded-full"></div> */}
             </div>
 
             {/* Right */}
-            <div data-aos="fade-left" className="max-w-md text-[#547A95]">
+            <div data-aos="fade-left" className="max-w-md text-[#fff]">
                 Discover the academic resources and vibrant campus life experiences at our University.
             </div>
 
@@ -105,14 +105,14 @@ const StudentLife = () => {
 
                     {/* Text BELOW image (no box) */}
                     <div className="mt-4">
-                        <h3 className="text-lg font-semibold text-[#2C3947]">
+                        <h3 className="text-lg font-semibold text-[#fff]">
                             {event.title}
                         </h3>
 
                         {/* <div className="w-10 h-[2px] bg-[#C2A56D] mt-2 mb-2"></div> */}
 
                         {event.description && (
-                            <p className="text-sm text-[#547A95] line-clamp-2">
+                            <p className="text-sm text-[#fff] line-clamp-2">
                                 {event.description}
                             </p>
                         )}
