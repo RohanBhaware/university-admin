@@ -70,13 +70,25 @@ const StudentLife = () => {
                 <h2 className="text-4xl md:text-5xl font-bold text-[#fff]">
                     Student <span className="text-[#C2A56D]">Life</span>
                 </h2>
+                <br/>
+                <div data-aos="fade-left" className="w-full text-[#fff]">
+                Discover the academic resources and vibrant campus life experiences at our University.
+            </div>
                 {/* <div className="w-[70px] h-[3px] bg-[#C2A56D] mt-2 rounded-full"></div> */}
             </div>
 
             {/* Right */}
-            <div data-aos="fade-left" className="max-w-md text-[#fff]">
-                Discover the academic resources and vibrant campus life experiences at our University.
-            </div>
+            <div data-aos="fade-left" className="max-w-md mt-4 md:mt-0">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 text-white font-medium hover:text-[#C2A56D] transition-colors duration-300 group"
+            >
+              View more
+              <span className="transform transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
 
         </div>
 

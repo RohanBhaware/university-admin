@@ -60,13 +60,25 @@ const Events = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-[#2C3947]">
                 Latest <span className="text-[#C2A56D]">Events</span>
             </h2>
+            <br/>
+            <div data-aos="fade-left" className="w-full text-[#000000]">
+            Showcasing the Latest Events, Achievements, and Milestones
+        </div>
             {/* <div className="w-[70px] h-[3px] bg-[#C2A56D] mt-2 rounded-full"></div> */}
         </div>
 
         {/* Right: Text */}
-        <div data-aos="fade-left" className="max-w-md text-[#000000]">
-            Showcasing the Latest Events, Achievements, and Milestones
-        </div>
+        <div data-aos="fade-left" className="max-w-md mt-4 md:mt-0">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 text-black font-medium hover:text-[#C2A56D] transition-colors duration-300 group"
+            >
+              View more
+              <span className="transform transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
 
     </div>
 

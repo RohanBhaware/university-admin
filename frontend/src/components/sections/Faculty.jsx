@@ -39,9 +39,17 @@ const FacultyList = () => {
                     </div>
 
                     {/* RIGHT → TEXT */}
-                    {/* <div data-aos="fade-left" className="max-w-md text-[#547A95]">
-                        Meet our experienced faculty members who guide students with knowledge, innovation, and excellence.
-                    </div> */}
+                    <div data-aos="fade-left" className="max-w-md mt-4 md:mt-0">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 text-white font-medium hover:text-[#C2A56D] transition-colors duration-300 group"
+            >
+              View more
+              <span className="transform transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
 
                 </div>
 

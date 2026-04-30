@@ -49,16 +49,29 @@ const Placement = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-[#2C3947]">
               Top <span className="text-[#C2A56D]">Placements</span>
             </h2>
+            <br />
+            <div
+              data-aos="fade-left"
+              className="w-full text-[black] mt-4 md:mt-0"
+            >
+              Our students are placed in top companies with excellent packages
+              and strong career growth.
+            </div>
             {/* <div className="w-[70px] h-[3px] bg-[#C2A56D] mt-2 rounded-full"></div> */}
           </div>
 
-          <div
-            data-aos="fade-left"
-            className="max-w-md text-[black] mt-4 md:mt-0"
-          >
-            Our students are placed in top companies with excellent packages and
-            strong career growth.
+          <div data-aos="fade-left" className="max-w-md mt-4 md:mt-0">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 text-black font-medium hover:text-[#C2A56D] transition-colors duration-300 group"
+            >
+              View more
+              <span className="transform transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </a>
           </div>
+
         </div>
 
         {/* MAIN */}
@@ -83,9 +96,9 @@ const Placement = () => {
                   key={idx}
                   className={`absolute ${positions[idx % positions.length]}
         w-20 h-20 md:w-24 md:h-24 rounded-full 
-        bg-white flex items-center justify-center 
+        bg-[#2C3947] flex items-center justify-center 
         shadow-sm border-2 border-[#C2A56D] 
-        text-[#2C3947] font-semibold text-sm md:text-base
+        text-white font-semibold text-sm md:text-base
         hover:shadow-md hover:-translate-y-1 transition `}
                 >
                   {logo}
