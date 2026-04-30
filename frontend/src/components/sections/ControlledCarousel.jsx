@@ -35,7 +35,7 @@ const HeroSection = () => {
         <div className="flex-1">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight text-[#E8EDF2]">
             Welcome to <br />
-            <span className="text-[#C2A56D]">Our University</span>
+            <span className="text-[#C2A56D]">Our College</span>
           </h1>
 
           <p className="mt-4 text-gray-200 text-lg max-w-lg">

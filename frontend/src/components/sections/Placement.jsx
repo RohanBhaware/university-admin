@@ -75,7 +75,6 @@ const Placement = () => {
 
         {/* MAIN */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16">
-
           {/* RIGHT → SIMPLE GRAPH */}
           <div
             data-aos="fade-left"
@@ -83,46 +82,46 @@ const Placement = () => {
           >
             {/* Average Package (Main Highlight) */}
             {/* Average Package */}
-<div className="w-full max-w-xs">
-  <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
-    {stats.averagePackage}
-  </h3>
-  <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
-    Average Package
-  </p>
+            <div className="w-full max-w-xs">
+              <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
+                {stats.averagePackage}
+              </h3>
+              <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
+                Average Package
+              </p>
 
-  <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
-    <div className="h-2 bg-[#C2A56D] rounded-full w-[80%]"></div>
-  </div>
-</div>
+              <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
+                <div className="h-2 bg-[#C2A56D] rounded-full w-[80%]"></div>
+              </div>
+            </div>
 
-{/* Students */}
-<div className="w-full max-w-xs">
-  <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
-    {stats.studentsPlaced}
-  </h3>
-  <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
-    Students
-  </p>
+            {/* Students */}
+            <div className="w-full max-w-xs">
+              <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
+                {stats.studentsPlaced}
+              </h3>
+              <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
+                Students
+              </p>
 
-  <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
-    <div className="h-2 bg-[#2C3947] rounded-full w-[70%]"></div>
-  </div>
-</div>
+              <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
+                <div className="h-2 bg-[#2C3947] rounded-full w-[70%]"></div>
+              </div>
+            </div>
 
-{/* Companies */}
-<div className="w-full max-w-xs">
-  <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
-    {stats.companiesVisited}
-  </h3>
-  <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
-    Companies
-  </p>
+            {/* Companies */}
+            <div className="w-full max-w-xs">
+              <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
+                {stats.companiesVisited}
+              </h3>
+              <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
+                Companies
+              </p>
 
-  <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
-    <div className="h-2 bg-[#547A95] rounded-full w-[60%]"></div>
-  </div>
-</div>
+              <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
+                <div className="h-2 bg-[#547A95] rounded-full w-[60%]"></div>
+              </div>
+            </div>
           </div>
 
           {/* LEFT → CIRCULAR LOGOS GRID */}

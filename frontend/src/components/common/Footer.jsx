@@ -25,7 +25,7 @@ const Footer = () => {
             />
             <div>
               <h1 className="text-2xl font-bold tracking-wide text-white">
-                UNIVERSITY
+                COLLEGE
               </h1>
             </div>
           </div>
@@ -79,13 +79,6 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-      </div>
-
-      {/* Bottom */}
-      <hr className="mt-10 border-[#547A95]/30" />
-
-      <div className="text-center text-sm text-[#E8EDF2]/60 pt-6">
-        © {new Date().getFullYear()} University Portal. All rights reserved.
       </div>
 
     </footer>

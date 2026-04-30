@@ -72,7 +72,7 @@ const StudentLife = () => {
                 </h2>
                 <br/>
                 <div data-aos="fade-left" className="w-full text-[#fff]">
-                Discover the academic resources and vibrant campus life experiences at our University.
+                Discover the academic resources and vibrant campus life experiences at our college.
             </div>
                 {/* <div className="w-[70px] h-[3px] bg-[#C2A56D] mt-2 rounded-full"></div> */}
             </div>

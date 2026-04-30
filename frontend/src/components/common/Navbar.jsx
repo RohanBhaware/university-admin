@@ -23,7 +23,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-15 h-15 object-contain" />
           <div>
             <h1 className="text-lg font-bold tracking-wide text-white">
-              UNIVERSITY
+              COLLEGE
             </h1>
           </div>
         </div>

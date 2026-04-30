@@ -51,8 +51,6 @@ const Events = () => {
 
     return (
         <section id="events" className="pt-24 pb-16 w-[70%] md:w-[85%] mx-auto">
-
-    {/* Top Section: Heading Left, Text Right */}
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12">
 
         {/* Left: Heading */}
@@ -82,10 +80,7 @@ const Events = () => {
 
     </div>
 
-    {/* Carousel Container (UNCHANGED LOGIC) */}
-    <div className="relative w-full max-w-6xl mx-auto overflow-hidden">
-
-        {/* Slides */}
+    <div className="relative w-full max-w-6xl mx-auto overflow-hidden">  
         <div
             className="flex transition-transform duration-500"
             style={{ transform: `translateX(-${current * 100}%)` }}
