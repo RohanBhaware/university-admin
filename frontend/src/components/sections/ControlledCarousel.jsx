@@ -15,7 +15,7 @@ const ControlledCarousel = () => {
 
     return () => clearInterval(interval);
   }, []);
-
+// ggggg
   return (
     <section className="w-full min-h-[80vh] flex items-center bg-[#E8EDF2] px-6 md:px-16 mt-20">
 
