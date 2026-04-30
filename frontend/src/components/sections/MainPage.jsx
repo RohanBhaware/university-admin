@@ -21,7 +21,6 @@ const MainPage = () => {
                 <Events/>
                 <Faculty/>
                 <Placement/>
-                {/* <About /> */}
                 <Footer />
             </div>
         </>

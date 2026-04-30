@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import img1 from "../../assets/images/main-img1.jpg";
 import img2 from "../../assets/images/main-img2.jpg";
 import img3 from "../../assets/images/main-img3.jpg";
-import bg from "../../assets/images/bg.jpg"; // background image
+// import bg from "../../assets/images/bg.jpg"; 
 
 const HeroSection = () => {
   const images = [img1, img2, img3];

@@ -71,11 +71,60 @@ const Placement = () => {
               </span>
             </a>
           </div>
-
         </div>
 
         {/* MAIN */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16">
+
+          {/* RIGHT → SIMPLE GRAPH */}
+          <div
+            data-aos="fade-left"
+            className="flex-1 flex flex-col items-center ml-15 lg:items-start gap-6"
+          >
+            {/* Average Package (Main Highlight) */}
+            {/* Average Package */}
+<div className="w-full max-w-xs">
+  <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
+    {stats.averagePackage}
+  </h3>
+  <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
+    Average Package
+  </p>
+
+  <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
+    <div className="h-2 bg-[#C2A56D] rounded-full w-[80%]"></div>
+  </div>
+</div>
+
+{/* Students */}
+<div className="w-full max-w-xs">
+  <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
+    {stats.studentsPlaced}
+  </h3>
+  <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
+    Students
+  </p>
+
+  <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
+    <div className="h-2 bg-[#2C3947] rounded-full w-[70%]"></div>
+  </div>
+</div>
+
+{/* Companies */}
+<div className="w-full max-w-xs">
+  <h3 className="text-3xl md:text-4xl font-bold text-[#2C3947]">
+    {stats.companiesVisited}
+  </h3>
+  <p className="text-sm text-[#547A95] uppercase tracking-wider mb-2">
+    Companies
+  </p>
+
+  <div className="w-full h-2 bg-[#547A95]/20 rounded-full">
+    <div className="h-2 bg-[#547A95] rounded-full w-[60%]"></div>
+  </div>
+</div>
+          </div>
+
           {/* LEFT → CIRCULAR LOGOS GRID */}
           <div
             data-aos="fade-right"
@@ -105,36 +154,6 @@ const Placement = () => {
                 </div>
               );
             })}
-          </div>
-
-          {/* RIGHT → STATS (EQUAL SIZE) */}
-          <div
-            data-aos="fade-left"
-            className="flex-1 flex flex-col items-center lg:items-start"
-          >
-            {/* BIG STAT */}
-            <div className="text-5xl md:text-5xl font-bold text-[#2C3947] text-center ml-70 lg:text-left">
-              {stats.averagePackage}
-              <p className="text-sm text-[#547A95] uppercase tracking-wider">
-                Average Package
-              </p>
-            </div>
-
-            <div className="flex ml-40 mt-10 gap-40">
-              <div className="text-5xl md:text-5xl font-bold text-[#2C3947] text-center lg:text-left">
-                {stats.studentsPlaced}
-                <p className="text-xs text-[#547A95] uppercase tracking-wider">
-                  Students
-                </p>
-              </div>
-
-              <div className="text-5xl md:text-5xl font-bold text-[#2C3947] text-center lg:text-left">
-                {stats.companiesVisited}
-                <p className="text-xs text-[#547A95] uppercase tracking-wider">
-                  Companies
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
