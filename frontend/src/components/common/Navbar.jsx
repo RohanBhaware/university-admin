@@ -20,13 +20,13 @@ const Navbar = () => {
 
         {/* Logo + Title */}
         <div className="flex items-center space-x-3">
-          <img src={logo} alt="logo" className="w-15 h-15 object-contain" />
+          <img src={logo} alt="logo" className="w-15 h-15 object-contain rounded-full" />
           <div>
             <h1 className="text-lg font-bold tracking-wide text-white">
               COLLEGE
             </h1>
           </div>
-        </div>
+        </div> 
 
         {/* Desktop Nav Links */}
         <div className="hidden lg:flex items-center space-x-8">
@@ -44,7 +44,7 @@ const Navbar = () => {
           ))}
           <Link
             to="/admin/login"
-            className="ml-4 px-4 py-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-lg text-sm font-semibold transition-all duration-300 backdrop-blur-sm"
+            className="ml-4 px-4 py-2 bg-white/10 text-white hover:text-[#C2A56D] border border-white/20 rounded-lg text-sm font-semibold transition-all duration-300 backdrop-blur-sm"
           >
             Admin Login
           </Link>

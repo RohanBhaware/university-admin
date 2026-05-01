@@ -7,10 +7,10 @@ const Admission = () => {
 
             <div className="px-6 md:px-16">
 
-                {/* MAIN SPLIT LAYOUT */}
+                
                 <div className="flex flex-col lg:flex-row items-start gap-16">
 
-                    {/* LEFT → TEXT */}
+                    
                     <div data-aos="fade-right" className="flex-1 max-w-xl">
 
                         <h1 className="text-4xl md:text-5xl font-bold text-[#2C3947] leading-tight">
