@@ -5,6 +5,7 @@ import { Trash2, Edit } from 'lucide-react';
 
 const ManageEntity = ({ endpoint, title }) => {
   const [items, setItems] = useState([]);
+  
   const [formData, setFormData] = useState({ title: '', description: '', image: null, programName: '', intake: '', studentsPlaced: '', companiesVisited: '', averagePackage: '' });
   const [editingId, setEditingId] = useState(null);
 

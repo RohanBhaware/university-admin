@@ -91,7 +91,7 @@ const Navbar = () => {
           <button className="w-full bg-[#C2A56D] text-[#2C3947] py-2 rounded-lg font-semibold">
             Apply Now
           </button>
-          <Link to="/admin/login" className="block w-full text-center bg-white/10 text-white border border-white/20 py-2 rounded-lg font-semibold" onClick={() => setIsOpen(false)}>
+          <Link to="/admin/login" className="block w-full text-center bg-white/10 text-white border border-white/20 py-2 rounded-lg hover:bg-[#C2A56D]" onClick={() => setIsOpen(false)}>
             Admin Login
           </Link>
         </div>

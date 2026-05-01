@@ -5,9 +5,7 @@ import Welcome from "./Welcome";
 const HeroSection = () => {
   return (
   <>
-  {/* <ControlledCarousel/> */}
-  {/* < Welcome /> */}
-  {/* <Announcement/> */}
+  <div></div>
   </>
   );
 }
